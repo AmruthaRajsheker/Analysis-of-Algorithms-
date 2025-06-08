@@ -125,14 +125,9 @@ Given $n$ items with values $v_i$ and weights $w_i$, select a subset such that t
 
 1. **Scaling of Values:**
 
-   * Let $V_{\max} = \max_i v_i$.
-   * For a chosen accuracy parameter $\epsilon > 0$:
-
-   $$
-   v'_i = \left\lfloor \frac{v_i \times n}{\epsilon V_{\max}} \right\rfloor
-   $$
-
-   This reduces the range of values, simplifying the dynamic programming state space.
+   * Let \(V_{\max} = \max_i v_i\).
+   * For a chosen accuracy parameter \(\epsilon > 0\):
+    ![image](https://github.com/user-attachments/assets/5c9d8388-eedb-4594-9bc2-8ab48f8d991a)
 
 2. **Dynamic Programming Solution:**
 
