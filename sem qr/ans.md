@@ -424,3 +424,8 @@ This implies that the **greedy strategy gives an optimal solution** for this ins
 * In this case, since all items fit without needing fractional parts, **greedy yields the optimal solution** that matches what you'd obtain via **0/1 dynamic programming**.
 
 Let me know if you’d like this solution visualized as a bar chart or tabulated matrix.
+
+---
+---
+
+
